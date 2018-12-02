@@ -1,0 +1,13 @@
+2017-06-14 21:47:57,020 INFO  - HHH000412: Hibernate Core {5.2.10.Final}
+2017-06-14 21:47:57,022 INFO  - HHH000206: hibernate.properties not found
+2017-06-14 21:47:57,899 INFO  - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-06-14 21:47:57,969 WARN  - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2017-06-14 21:47:57,977 INFO  - HHH10001005: using driver [com.mysql.jdbc.Driver] at URL [jdbc:mysql://localhost:3306/quest]
+2017-06-14 21:47:57,977 INFO  - HHH10001001: Connection properties: {user=root, password=****}
+2017-06-14 21:47:57,977 INFO  - HHH10001003: Autocommit mode: false
+2017-06-14 21:47:57,978 INFO  - HHH10001007: JDBC isolation level: REPEATABLE_READ
+2017-06-14 21:47:57,980 INFO  - HHH000115: Hibernate connection pool size: 20 (min=1)
+2017-06-14 21:47:58,184 INFO  - HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2017-06-14 21:47:58,745 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7894f09b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-06-14 21:47:59,088 INFO  - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4c37b5b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2017-06-14 21:48:00,003 INFO  - HHH000476: Executing import script 'org.hibernate.tool.schema.internal.exec.ScriptSourceInputNonExistentImpl@78a287ed'

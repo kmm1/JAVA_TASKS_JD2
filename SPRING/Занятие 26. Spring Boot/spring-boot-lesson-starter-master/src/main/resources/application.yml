@@ -1,0 +1,23 @@
+server:
+  port: 9000
+management:
+  port: 9001
+  address: 127.0.0.1
+  security:
+    enabled: false
+
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/spring_boot_demo_db
+  jpa:
+    hibernate:
+      ddl-auto: create
+security:
+  user:
+    name: user
+    password: password
+
+
+

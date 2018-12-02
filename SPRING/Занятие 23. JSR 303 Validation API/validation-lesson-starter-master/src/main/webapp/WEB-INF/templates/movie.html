@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Movie form</title>
+</head>
+<body>
+    <form th:action="@{/movie}" method="post" th:object="${movie}">
+        <label th:for="name">Name: </label>
+        <input th:field="*{name}" type="text"><br>
+        <p th:each="err : ${#fields.errors('name')}" th:text="#{${err}}" style="color: darkred;"></p>
+        <label th:for="length">Length: </label>
+        <input th:field="*{length}" type="text"><br>
+        <p th:each="err : ${#fields.errors('length')}" th:text="${err}" style="color: darkred;"></p>
+        <label th:for="genre">Genre: </label>
+        <input th:field="*{genre}" type="text"><br>
+        <p th:each="err : ${#fields.errors('genre')}" th:text="${err}" style="color: darkred;"></p>
+        <label th:for="genre">Director phone number: </label>
+        <input th:field="*{directorPhoneNumber}" type="text"><br>
+        <p th:each="err : ${#fields.errors('directorPhoneNumber')}" th:text="${err}" style="color: darkred;"></p>
+        <button type="submit">Save</button>
+    </form>
+</body>
+</html>
